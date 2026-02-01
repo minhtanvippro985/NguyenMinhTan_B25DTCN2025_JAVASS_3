@@ -67,10 +67,11 @@ while (true) {
 
 console.log("---------------------------------------");
 console.log("shift report");
-console.log("Tong feedback nhan duoc " + totalFeedback);
-console.log("Khieu nai nghiem trong : " + highSeverityComplaints);
-console.log("Khieu nai thuong: " + mediumSeverityComplaints);
-console.log("Khieu nai nho: " + lowSeverityComplaints);
-console.log("de xuat cai thien: " + improvementSuggestions);
-console.log("khen ngoi: " + positiveFeedbacks);
+console.log("Tổng feedback " + totalFeedback);
+console.log("Khiếu nại nghiêm trọng : " + highSeverityComplaints);
+console.log("Khiếu nại thường " + mediumSeverityComplaints);
+console.log("Khiếu nại nhỏ " + lowSeverityComplaints);
+console.log("Đề xuất cải thiện " + improvementSuggestions);
+console.log("Khen ngợi" + positiveFeedbacks);
+
 console.log("---------------------------------------");
