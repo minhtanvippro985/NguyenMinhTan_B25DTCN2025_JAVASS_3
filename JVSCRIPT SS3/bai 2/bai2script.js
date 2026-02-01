@@ -16,17 +16,18 @@ do {
 
 if(days <= 14){
     console.log(`${userName}  , co sach${bookName} tra DUNG HAN `);
-    alert(`${userName}  tra DUNG HAN`);
+    alert(`${userName}  trả đúng hạn`);
 } else if( (days >= 15 && days <=21 ) ) {
     console.log(`${userName}  , co sach${bookName} TRA MUON NHE , phat nhac nho `);
-    alert(`${userName} TRA MUON NHE , phat nhac nho `);
+    alert(`${userName} TRẢ MUỘN NHẸ , phạt nhắc nhở `);
     overduePeople++ ;
 } else {
-    console.log(`${userName}  , co sach${bookName} qua han nghiem trong  `);
-    alert(`${userName}  , qua han nghiem trong , can ghi bien ban `);
+    console.log(`${userName}  , co sach${bookName} quá hạn nghiêm trọng  `);
+    alert(`${userName}  ,cần ghi biên bản `);
     overduePeople++ ;
 }
 }
 
-console.log(`so luot tra sach ${borrowCount}`);
-console.log(`so luot tra sach MUON  ${overduePeople}`);
+console.log(`Số lượt trả ${borrowCount}`);
+
+console.log(`Số lượt muộn ${overduePeople}`);
